@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.forms {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 121px 0;
+}
+.form-section {
+  
+  height:800px;
+  background-color: #FF7979;
+}
+.text-box {
+  margin-left: 125px;
+  width: 525px;
+}
+.title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 55px;
+  letter-spacing: -0.520833px;
+  color: #FFFFFF;
+}
+.text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  padding-right: 45px;
+}
+.form-list {
+  width: 525px;
+  /* margin-right: 205px;
+  margin-left: 244px; */
+}
+.form-title-box {
+  background-color: #5E54A4;
+  border-radius: 10px;
+}
+.form-title {
+  padding: 17px 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.267857px;
+  color: #FFFFFF;
+  }
+.form-title span {
+  font-weight: 400;
+  }
+  form {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+    border-radius: 10px;
+    padding: 40px;
+  }
+
+  form input {
+    background: #FFFFFF;
+    border: 1px solid #5E54A4;
+    border-radius: 5px;
+    width: 460px;
+    height: 60px;
+    margin-top: 20px;
+    padding: 15px 32px;
+  }
+  form input::placeholder{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+    color: #3D3B48;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+  }
+  button {
+    margin-top: 20px;
+    width: 460px;
+    height: 60px;
+    background-color: #38CC8B;
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+    border-radius: 5px;
+    border-color: #38CC8B;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+  }
+  .form-footer-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 26px;
+    text-align: center;
+    color: #BAB7D4;
+  }
+  .form-footer-text span{
+    font-weight: 700;
+    color: #FF7979;
+  }
